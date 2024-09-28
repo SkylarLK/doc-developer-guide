@@ -36,7 +36,7 @@ The graphical elements of Cinnamon, as well as Cinnamon applets, desklets and ex
 Vala
 ~~~~
 
-`Vala <https://wiki.gnome.org/Projects/Vala>`_ is used in Slick Greeter (the login screen).
+`Vala <https://wiki.gnome.org/Projects/Vala>`_ is used in Slick Greeter (the login screen) and Timeshift (an X-App for system snapshots and restoration).
 
 GNOME Toolkit and libraries
 ---------------------------
