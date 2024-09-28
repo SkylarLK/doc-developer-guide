@@ -100,21 +100,6 @@ Pix is based on gThumb, which is an application to organize your photos.
 
 This project is developed in C and its source code is available on `Github <https://github.com/linuxmint/pix>`_.
 
-blueberry
----------
-
-The `Bluetooth` tool, blueberry, is a frontend to gnome-bluetooth with systray support.
-
-.. figure:: images/blueberry.png
-    :width: 500px
-    :align: center
-
-    Bluetooth
-
-The GNOME Bluetooth frontend was removed from gnome-bluetooth and made part of gnome-control-center, essentially making gnome-bluetooth useless outside of GNOME. Blueberry provides that missing frontend and makes it easy for other GTK desktops to use gnome-bluetooth.
-
-This project is developed in Python and its source code is available on `Github <https://github.com/linuxmint/blueberry>`_.
-
 slick-greeter
 -------------
 
@@ -140,3 +125,18 @@ The lightdm-settings project provides a configuration tool to set up LightDM and
     Login Window
 
 This project is developed in Python and its source code is available on `Github <https://github.com/linuxmint/lightdm-settings>`_.
+
+blueberry
+---------
+
+The `Bluetooth` tool, blueberry, was a frontend to gnome-bluetooth with systray support. Blueberry is now deprecated and replaced with `Blueman <https://github.com/blueman-project/blueman>`_, which does not require gnome-bluetooth.
+
+.. figure:: images/blueberry.png
+    :width: 500px
+    :align: center
+
+    Bluetooth
+
+The GNOME Bluetooth frontend was removed from gnome-bluetooth and made part of gnome-control-center, essentially making gnome-bluetooth useless outside of GNOME. Blueberry provided that missing frontend and made it easy for other GTK desktops to use gnome-bluetooth.
+
+This project was developed in Python and its source code is available on `Github <https://github.com/linuxmint/blueberry>`_.
